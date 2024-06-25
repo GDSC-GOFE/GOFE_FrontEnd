@@ -10,6 +10,7 @@ import { Provider } from "react-redux"
 // const store = createStore(rootReducer)
 
 const App = () => {
+  console.log('Hello')  //GDSC COMMIT TEST  HELLO GDSC
   return (
     // <Provider store={store}>
     <RouterProvider router={router} />
@@ -18,3 +19,7 @@ const App = () => {
 }
 
 export default App
+
+
+//커밋 테스트
+//GDSC commit test
